@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+.signup_part{
+    width: 75vw;
+    display: block;
+    margin: auto;
+}
+.signup_container{
+    display: flex;
+    justify-content: space-between;
+}
+.signup_container h2{
+    font-size: 50px;
+    font-family: 'Nunito';
+    margin: 100px 0px;
+    padding: 20px 0px;
+    border-bottom: 3px solid black;
+}
+
+@media only screen and (max-width:700px) {
+    .signup_container{
+        
+        flex-direction: column;
+    }
+    .signup_container h2{
+        font-size: 25px;
+
+    }
+}

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+.container_ride{
+    width: 75vw;
+    height: 80vh;
+   display: block;
+   margin: auto;
+}
+
+
+.container_ride_main_text{
+    font-size: 40px;
+    font-family: 'Nunito';
+}
+
+.ride_boxes
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    
+}
+
+.ride_box3, .ride_box4{
+    margin-bottom: 200px;
+}
+
+.ride_box1, .ride_box2, .ride_box3, .ride_box4{
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    padding: 30px;
+    align-items: center;
+}
+.ride_box1 img, .ride_box2 img, .ride_box3 img, .ride_box4 img{
+    margin-right: 30px;
+}
+.ride_box1 p,  .ride_box2 p, .ride_box3 p,  .ride_box4 p{
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 17px;
+
+}
+.arrow_right{
+margin-left: 10px;
+}
+.span_ridenames{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+
+@media only screen and (max-width:700px){
+    .ride_box4{
+        margin-top: -150px;
+    }
+    .ride_box1, .ride_box2, .ride_box3, .ride_box4{
+       width: 100%;
+       flex-direction: column;
+    }
+    
+}

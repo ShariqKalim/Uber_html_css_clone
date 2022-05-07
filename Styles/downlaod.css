@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+
+.download_container{
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(243, 243, 243);
+    padding: 20px;
+    
+}
+.sub_download_container{
+    width: 75vw;
+    display:block;
+    margin:auto;
+}
+.download_cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+.download_card1,.download_card2{
+    width: 500px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Nunito';
+
+}
+.download_card1 h6, .download_card2 h6{
+    margin: 10px;
+}
+
+.download_container h4{
+    font-size: 40px;
+    font-family: 'Nunito';
+}
+
+@media only screen and (max-width:700px){
+
+    .download_container{
+        width: 100%;
+        height: auto;
+    }
+    .download_container img{
+        width: 100px;    
+        height: 100px;
+    }
+    .download_cards{
+        flex-direction: column;
+    }
+    .download_cards h4{
+font-size: 20px;
+text-align: center;
+    }
+    .download_card1, .download_card2{
+        width: 70vw;
+        margin-top: 30px;
+    }
+}

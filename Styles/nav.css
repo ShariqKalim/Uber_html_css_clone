@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+nav ul li{
+    list-style: none;
+    padding: 25px;
+    font-size: 15px;
+    font-family: 'Nunito';
+    font-weight: bold;
+}
+nav ul li:hover{
+    color: rgba(255, 255, 255, 0.805);
+    cursor: pointer;
+}
+nav ul li:first-child{
+    font-size: 35px;
+    padding: 12px;
+}
+nav ul{
+    display: flex;
+    margin-left: 100px;
+}
+nav{
+    background-color: black;
+    width: 100vw;
+    height: 9vh;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.secondlist{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 15px;
+    font-family: 'Nunito';
+    font-weight: bold;
+    margin-right: 100px;
+
+}
+.secondlist button{
+    position: relative;
+    line-height: 30px;
+    padding: 5px;
+    width: 100px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-weight: 500;
+    border-radius: 100px;
+    font-size: 15px;
+cursor: pointer;
+}
+
+@media only screen and (max-width:850px)
+{
+  nav{
+      flex-direction: column;
+      position: fixed;
+  }
+  nav ul li:first-child{
+      line-height: 30px;
+      display: block;
+      margin: auto;
+     
+  }
+  nav ul{
+      margin-left: -30px;
+  }
+ nav ul li:nth-child(2){ display: none;
+  }
+  nav ul li:nth-child(3){
+    display: none;
+}
+
+nav ul li:nth-child(4){
+    display: none;
+}
+
+  .secondlist{
+     display: none;
+  }
+
+}

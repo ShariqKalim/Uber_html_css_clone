@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+.card_container{
+    width: 75vw;
+    display: block;
+    margin: auto;
+}
+.cards{
+    margin-bottom: 150px;
+   display: flex;
+   justify-content: space-between;
+}
+.card1,.card2,.card3,.card4{
+    width: 450px;
+    padding: 15px;
+}
+.cards h3,p,a{
+    font-family: 'Nunito';
+    font-size: 20px;
+}
+.cards a{
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+@media only screen and (max-width:700px)
+{
+
+    .cards {
+        display:block;
+        margin: auto;
+    }
+   .card1, .card2, .card3, .card4{
+       width: 300px;
+   }
+ 
+}

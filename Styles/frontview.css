@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+#mainImage{
+    width: 100vw;
+    height: 85vh;
+}
+.ridebox{
+    width: 38vw;
+    height: 70vh;
+    background-color: white;
+    position: absolute;
+    top: 120px;
+    left: 180px;
+}
+.ridebox .options ul li{
+    list-style: none;
+    font-family: 'Nunito';
+    font-weight: 900;
+    padding: 40px;
+}
+.ridebox .options ul li:first-child{
+    border-bottom: 5px solid black;
+}
+.ridebox .options ul li:hover{
+    border-bottom: 5px solid black;
+    cursor: pointer;
+}
+.ridebox .options ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#request{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Nunito';
+    margin: 20px;
+}
+.form input{
+   width: 400px;
+    margin: 10px;    
+   padding: 20px;
+   border: none;
+   background-color: rgb(240, 240, 240);
+   outline: none;
+   font-size: 17px;
+   font-family: 'Nunito';
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.action_ridebox{
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+#ridebox_button_1{
+    padding: 15px;
+    width: 200px;
+    border: none;
+    color: white;
+    background-color: #000;
+    font-family: 'Nunito';
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#ridebox_button_1:hover{
+    opacity: 0.8;
+}
+
+#ridebox_button_2{
+    padding: 15px;
+    width: 200px;
+    font-family: 'Nunito';
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+#ridebox_button_2:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+#line_after_options{
+   background-color:  rgb(238, 233, 233);
+    font-weight: lighter;
+}
+@media only screen and (max-width:700px){
+    .ridebox{
+        top:50px;
+        left: 0;
+        width: 100%;
+        display: block;
+        margin: auto;
+
+    }
+  .form input{
+      width: 100%;
+
+  }
+  .form{margin-top: -50px;
+      padding: 50px;
+  }
+  #request{
+      font-size: 25px;
+  }
+  #mainImage{
+      margin-top: 550px;
+      height: 45vh;
+  }
+  #ridebox_button_1,#ridebox_button_2
+  {
+      padding: 10px;
+      margin: 20px;
+     
+  }
+
+}
